@@ -1,6 +1,6 @@
 # Online Reservation and Billing System for Rio Villanuevo
 
-> © Copyright 2018 [Miracris Lipata](https://gitlab.com/IrisLipata/)
+> © Copyright 2018
 
 ## Installation
 
