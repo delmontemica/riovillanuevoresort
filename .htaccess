@@ -1,0 +1,17 @@
+#Prevent directory listings
+Options All -Indexes
+
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value session.gc_maxlifetime 0
+
+<If "%{HTTP_HOST} =~ /riovillanuevoresort.com$/">
+  php_value session.cookie_domain .riovillanuevoresort.com
+  RewriteEngine On
+  RewriteCond %{HTTPS} !on
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+</If>
+
+<FilesMatch ".(eot|ttf|otf|woff)">
+  Header set Access-Control-Allow-Origin "*"
+</FilesMatch>

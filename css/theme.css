@@ -1,0 +1,15 @@
+:root {
+  --bg-color: black;
+}
+
+.btn-primary {
+  background-color: var(--bg-color) !important;
+}
+
+.modal-header {
+  background-color: var(--bg-color) !important;
+}
+
+.modal-footer {
+  background-color: var(--bg-color) !important;
+}

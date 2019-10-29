@@ -1,0 +1,100 @@
+{
+  "css": [
+    {
+      "output": "dist/packages.css",
+      "files": [
+        "css/bootstrap.min.css",
+        "css/datatables.min.css",
+        "css/animate.min.css",
+        "css/smart_wizard.min.css",
+        "css/smart_wizard_theme_circles.min.css",
+        "css/pignose.calendar.min.css",
+        "css/font-awesome.min.css",
+        "css/customscrollbar.css",
+        "css/waves.min.css",
+        "css/baguetteBox.min.css"
+      ]
+    },
+    {
+      "output": "dist/adminPackages.css",
+      "files": [
+        "css/bootstrap.min.css",
+        "css/bootstrap-datepicker.min.css",
+        "css/bootstrap-toggle.min.css",
+        "css/animate.min.css",
+        "css/datatables.min.css",
+        "css/font-awesome.min.css",
+        "css/pe-icon-7-stroke.css",
+        "css/customscrollbar.css",
+        "css/baguetteBox.min.css",
+        "css/waves.min.css",
+        "css/snarl.min.css",
+        "css/hover-min.css",
+        "css/daterangepicker.css"
+      ]
+    }
+  ],
+  "js": [
+    {
+      "output": "dist/packages.js",
+      "files": [
+        "js/jquery.min.js",
+        "js/bootstrap.min.js",
+        "js/underscore-min.js",
+        "js/datatables.min.js",
+        "js/sweetalert2.all.min.js",
+        "js/jquery.number.min.js",
+        "js/jquery.smartWizard.min.js",
+        "js/moment.min.js",
+        "js/pignose.calendar.min.js",
+        "js/loadingoverlay.min.js",
+        "js/waves.min.js",
+        "js/socket.io.slim.js",
+        "js/baguetteBox.min.js",
+        "js/polyfill.min.js",
+        "js/angular.min.js",
+        "js/angular-route.min.js",
+        "js/angular-resource.min.js"
+      ],
+      "transform": false
+    },
+    {
+      "output": "dist/adminPackages.js",
+      "files": [
+        "js/jquery.min.js",
+        "js/bootstrap.min.js",
+        "js/bootstrap-datepicker.min.js",
+        "js/bootstrap-toggle.min.js",
+        "js/sweetalert2.all.min.js",
+        "js/loadingoverlay.min.js",
+        "js/datatables.min.js",
+        "js/jquery.number.min.js",
+        "js/baguetteBox.min.js",
+        "js/socket.io.slim.js",
+        "js/waves.min.js",
+        "js/snarl.min.js",
+        "js/moment.min.js",
+        "js/daterangepicker.js",
+        "js/polyfill.min.js",
+        "js/angular.min.js",
+        "js/angular-route.min.js",
+        "js/angular-resource.min.js"
+      ],
+      "transform": false
+    },
+    {
+      "output": false,
+      "outputDir": "build/",
+      "files": [
+        "js/socket.js",
+        "js/script.js",
+        "js/reservation.js",
+        "js/router.js",
+        "js/controller.js",
+        "js/admin.js",
+        "js/adminRouter.js",
+        "js/adminNavbar.js"
+      ]
+    }
+  ]
+}
