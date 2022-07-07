@@ -20,7 +20,7 @@
   "homepage": "https://gitlab.com/IrisLipata/riovillanuevo#README",
   "dependencies": {
     "fs-extra": "^7.0.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.21",
     "mysql": "^2.16.0",
     "mysqldump": "^2.2.1",
